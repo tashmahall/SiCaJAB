@@ -3,7 +3,7 @@ package br.org.betaninha.model;
 import java.io.Serializable;
 
 
-public abstract class BaseEntitySicapex<ID_TYPE extends Serializable> implements IBaseEntitySicapex<ID_TYPE>{
+public abstract class BaseEntity<ID_TYPE extends Serializable> implements IBaseEntity<ID_TYPE>{
 	private static final long serialVersionUID = 1L;
 
 
@@ -60,7 +60,7 @@ public abstract class BaseEntitySicapex<ID_TYPE extends Serializable> implements
 		}
 		
 		@SuppressWarnings("rawtypes")
-		BaseEntitySicapex other = (BaseEntitySicapex) obj;
+		BaseEntity other = (BaseEntity) obj;
 		if (getId() == null) {
 		    if (other.getId() != null) {
 		    	return false;
