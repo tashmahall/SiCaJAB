@@ -15,6 +15,7 @@ public class Observation extends BaseEntity<Long> implements IBaseEntity<Long> {
 	
 	@Id
 	private Long id;
+	
 	private ObservationKind observationKind;
 	
 	private ObservationStatus obserbationStatus;

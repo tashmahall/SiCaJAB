@@ -15,6 +15,7 @@ public class Teenager extends BaseEntity<Person> implements IBaseEntity<Person> 
 	@Id
 	private Person id;
 	
+
 	
 	@Override
 	public Person getId() {
