@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-@Table(name="OBSERVATION_KIND")
+@Table(name="OBSERVATION_KIND", schema="IGREJA_DB")
 @Entity
 public class ObservationKind  extends BaseEntity<Long> implements IBaseEntity<Long> {
 	/**

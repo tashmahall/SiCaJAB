@@ -14,7 +14,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-@Table(name="PHOTO_PERSON")
+@Table(name="PHOTO_PERSON",schema="IGREJA_DB")
 @Entity
 public class PhotoPerson extends BaseEntity<Long> implements IBaseEntity<Long>{
 	/**

@@ -16,7 +16,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-@Table(name="EVENT")
+@Table(name="EVENT",schema="IGREJA_DB")
 @Entity
 public class Event extends BaseEntity<Long> implements IBaseEntity<Long> {
 	

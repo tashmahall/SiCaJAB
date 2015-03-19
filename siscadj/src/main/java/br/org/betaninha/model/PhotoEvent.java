@@ -11,7 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-@Table(name="PHOTO_EVENT")
+@Table(name="PHOTO_EVENT",schema="IGREJA_DB")
 @Entity
 public class PhotoEvent extends BaseEntity<Long> implements IBaseEntity<Long> {
 	

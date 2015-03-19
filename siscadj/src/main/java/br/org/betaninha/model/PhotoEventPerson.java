@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 import br.org.betaninha.model.compositekey.PhotoEventPersonPK;
 
-@Table(name="PHOTO_EVENT_PERSON")
+@Table(name="PHOTO_EVENT_PERSON",schema="IGREJA_DB")
 @Entity
 public class PhotoEventPerson extends BaseEntity<PhotoEventPersonPK> implements IBaseEntity<PhotoEventPersonPK> {
 	
